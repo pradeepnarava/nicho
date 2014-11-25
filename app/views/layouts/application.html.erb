@@ -46,57 +46,59 @@
                             <li >
                                 <%= link_to 'Dashboard v.2', welcome_dashboard2_path %>
                             </li>
-                            <li ><a href="dashboard_3.html">Dashboard v.3</a></li>
+                            <li ><%= link_to 'Dashboard v.3', welcome_dashboard3_path %></li>
                         </ul>
                     </li>
 
                     <li>
                         <a href="#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Graphs</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="graph_flot.html">Flot Charts</a></li>
-                            <li><a href="graph_morris.html">Morris.js Charts</a></li>
-                            <li><a href="graph_rickshaw.html">Rickshaw Charts</a></li>
-                            <li><a href="graph_chartjs.html">Chart.js</a></li>
-                            <li><a href="graph_peity.html">Peity Charts</a></li>
-                            <li><a href="graph_sparkline.html">Sparkline Charts</a></li>
+                            <li><%= link_to 'Flot Charts', welcome_graph_flot_path %></li>
+                            <li><%= link_to 'Morris.js Charts', welcome_graph_morris_path %></li>
+                            <li><%= link_to 'Rickshaw Charts', welcome_graph_rickshaw_path %></li>
+                            <li><%= link_to 'Chart.js', welcome_graph_chartjs_path %></li>
+                            <li><%= link_to 'Peity Charts', welcome_graph_peity_path %></li>
+                            <li><%= link_to 'Sparkline Charts', welcome_graph_sparkline_path %></li>
                         </ul>
                     </li>
                     <li>
                         <a href="mailbox.html"><i class="fa fa-envelope"></i> <span class="nav-label">Mailbox </span><span class="label label-warning pull-right">16/24</span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="mailbox.html">Inbox</a></li>
-                            <li><a href="mail_detail.html">Email view</a></li>
-                            <li><a href="mail_compose.html">Compose email</a></li>
+                            <li><%= link_to 'Inbox', welcome_mailbox_path %></li>
+                            <li><%= link_to 'Email view', welcome_mail_detail_path %></li>
+                            <li><%= link_to 'Compose email', welcome_mail_compose_path %></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="widgets.html"><i class="fa fa-flask"></i> <span class="nav-label">Widgets</span> <span class="label label-info pull-right">NEW</span></a>
+                        <a href="/welcome/widgets">
+                            <i class="fa fa-flask"></i> <span class="nav-label">Widgets</span> <span class="label label-info pull-right">NEW</span>
+                        </a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">Forms</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="form_basic.html">Basic form</a></li>
-                            <li><a href="form_advanced.html">Advanced Plugins</a></li>
-                            <li><a href="form_wizard.html">Wizard</a></li>
-                            <li><a href="form_file_upload.html">File Upload</a></li>
-                            <li><a href="form_editors.html">Text Editor</a></li>
+                            <li><%= link_to 'Basic form', welcome_form_basic_path %></li>
+                            <li><%= link_to 'Advanced Plugins', welcome_form_advanced_path %></li>
+                            <li><%= link_to 'Wizard', welcome_form_wizard_path %></li>
+                            <li><%= link_to 'File Upload', welcome_form_file_upload_path %></li>
+                            <li><%= link_to 'Text Editor', welcome_form_editors_path %></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-desktop"></i> <span class="nav-label">App Views</span>  <span class="pull-right label label-primary">SPECIAL</span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="contacts.html">Contacts</a></li>
-                            <li><a href="profile.html">Profile</a></li>
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="project_detail.html">Project detail</a></li>
-                            <li><a href="file_manager.html">File manager</a></li>
-                            <li><a href="calendar.html">Calendar</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                            <li><a href="timeline.html">Timeline</a></li>
-                            <li><a href="pin_board.html">Pin board</a></li>
-                            <li><a href="invoice.html">Invoice</a></li>
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="register.html">Register</a></li>
+                            <li><%= link_to 'Contacts', welcome_contacts_path %></li>
+                            <li><%= link_to 'Profile', welcome_profile_path %></li>
+                            <li><%= link_to 'Projects', welcome_projects_path %></li>
+                            <li><%= link_to 'Project detail', welcome_project_detail_path %></li>
+                            <li><%= link_to 'File manager', welcome_file_manager_path %></li>
+                            <li><%= link_to 'Calendar', welcome_calendar_path %></li>
+                            <li><%= link_to 'FAQ', welcome_faq_path %></li>
+                            <li><%= link_to 'Timeline', welcome_timeline_path %></li>
+                            <li><%= link_to 'Pin board', welcome_pin_board_path %></li>
+                            <li><%= link_to 'Invoice', welcome_invoice_path %></li>
+                            <li><%= link_to 'Login', welcome_login_path %></li>
+                            <li><%= link_to 'Register', welcome_register_path %></li>
                         </ul>
                     </li>
                     <li>
