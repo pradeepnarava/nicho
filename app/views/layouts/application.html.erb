@@ -104,43 +104,42 @@
                     <li>
                         <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">Other Pages</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="search_results.html">Search results</a></li>
-                            <li><a href="lockscreen.html">Lockscreen</a></li>
-                            <li><a href="404.html">404 Page</a></li>
-                            <li><a href="500.html">500 Page</a></li>
-                            <li><a href="empty_page.html">Empty page</a></li>
+                            <li><%= link_to 'Search results', welcome_search_results_path %></li>
+                            <li><%= link_to 'Lockscreen', welcome_lockscreen_path %></li>
+                            <li><%= link_to '404 Page', welcome_not_found_path %></li>
+                            <li><%= link_to '500 Page', welcome_internal_error_path %></li>
+                            <li><%= link_to 'Empty page', welcome_empty_page_path %></li>
                         </ul>
                     </li>
 
                     <li >
                         <a href="#"><i class="fa fa-flask"></i> <span class="nav-label">UI Elements</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="typography.html">Typography</a></li>
-                            <li><a href="icons.html">Icons</a></li>
-                            <li><a href="draggable_panels.html">Draggable Panels</a></li>
-                            <li><a href="buttons.html">Buttons</a></li>
-                            <li><a href="video.html">Video</a></li>
-                            <li><a href="tabs_panels.html">Tabs & Panels</a></li>
-                            <li><a href="notifications.html">Notifications & Tooltips</a></li>
-                            <li><a href="badges_labels.html">Badges, Labels, Progress</a></li>
+                            <li><%= link_to 'Typography', welcome_typography_path %></li>
+                            <li><%= link_to 'Icons', welcome_icons_path %></li>
+                            <li><%= link_to 'Draggable Panels', welcome_draggable_panels_path %></li>
+                            <li><%= link_to 'Buttons', welcome_buttons_path %></li>
+                            <li><%= link_to 'Video', welcome_video_path %></li>
+                            <li><%= link_to 'Tabs & Panels', welcome_tabs_panels_path %></li>
+                            <li><%= link_to 'Notifications & Tooltips', welcome_notifications_path %></li>
+                            <li><%= link_to 'Badges, Labels, Progress', welcome_badges_labels_path %></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="grid_options.html"><i class="fa fa-laptop"></i> <span class="nav-label">Grid options</span></a>
+                        <a href="/welcome/grid_options"><i class="fa fa-laptop"></i> <span class="nav-label">Grid options</span></a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-table"></i> <span class="nav-label">Tables</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="table_basic.html">Static Tables</a></li>
-                            <li><a href="table_data_tables.html">Data Tables</a></li>
+                            <li><%= link_to 'Static Tables', welcome_table_basic_path %></li>
+                            <li><%= link_to 'Data Tables', welcome_table_data_tables_path %></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-picture-o"></i> <span class="nav-label">Gallery</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a href="basic_gallery.html">Basic Gallery</a></li>
-                            <li><a href="carousel.html">Bootstrap Carusela</a></li>
-
+                            <li><%= link_to 'Basic Gallery', welcome_basic_gallery_path %></li>
+                            <li><%= link_to 'Bootstrap Carusela', welcome_carousel_path %></li>
                         </ul>
                     </li>
                     <li>
@@ -169,10 +168,10 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="css_animation.html"><i class="fa fa-magic"></i> <span class="nav-label">CSS Animations </span><span class="label label-info pull-right">62</span></a>
+                        <a href="/welcome/css_animation"><i class="fa fa-magic"></i> <span class="nav-label">CSS Animations </span><span class="label label-info pull-right">62</span></a>
                     </li>
                     <li class="special_link">
-                        <a href="angularjs.html"><i class="fa fa-google"></i> <span class="nav-label">AngularJS</span><span class="label pull-right">NEW</span></a>
+                        <a href="/welcome/angularjs"><i class="fa fa-google"></i> <span class="nav-label">AngularJS</span><span class="label pull-right">NEW</span></a>
                     </li>
                 </ul>
 

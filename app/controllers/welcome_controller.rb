@@ -90,4 +90,67 @@ class WelcomeController < ApplicationController
   def register
   	
   end
+  def search_results
+  	
+  end
+  def lockscreen
+  	
+  end
+  def not_found
+  	
+  end
+  def internal_error
+  	
+  end
+  def empty_page
+  	
+  end
+  def typography
+  	
+  end
+  def icons
+  	
+  end
+  def draggable_panels
+  	
+  end
+  def buttons
+  	
+  end
+  def video
+  	
+  end
+  def tabs_panels
+  	
+  end
+  def notifications
+  	
+  end
+  def badges_labels
+  	
+  end
+  def grid_options
+  	
+  end
+  def table_basic
+  	
+  end
+  def table_data_tables
+  	
+  end
+  def basic_gallery
+  	
+  end
+  def carousel
+  	
+  end
+  def css_animation
+  	
+  end
+  def angularjs
+  	
+  end
+  def invoice_print
+  	
+  end
 end
