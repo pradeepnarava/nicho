@@ -50,3 +50,5 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 
 # Font Awesome
 gem 'font-awesome-rails', '~> 4.2.0.0'
+
+gem 'rails_12factor'
