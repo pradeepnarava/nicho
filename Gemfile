@@ -46,7 +46,7 @@ gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 # Debugger
-gem 'debugger', '~> 1.6.8'
+#gem 'debugger', '~> 1.6.8'
 
 # Font Awesome
 gem 'font-awesome-rails', '~> 4.2.0.0'
