@@ -54,7 +54,8 @@ gem 'font-awesome-rails', '~> 4.2.0.0'
 
 gem 'rails_12factor'
 
-gem 'devise'	# For Users Login, signup
+# Devise For users login, register
+gem 'devise'
 
-gem 'activeadmin', github: 'activeadmin'	# For Admin Panel
-
+# Active Admin - For Admin Panel
+gem 'activeadmin', github: 'activeadmin'
