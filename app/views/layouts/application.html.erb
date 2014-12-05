@@ -9,7 +9,7 @@
     <title>Nickhorub | Dashboard</title>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	<%= csrf_meta_tags %>
 
 </head>
@@ -48,6 +48,10 @@
                             </li>
                             <li ><%= link_to 'Dashboard v.3', welcome_dashboard3_path %></li>
                         </ul>
+                    </li>
+
+                    <li>
+                        <a href="/welcome/weather"><span class="nav-label">Weather</span></a>
                     </li>
 
                     <li>

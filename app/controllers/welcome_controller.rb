@@ -153,4 +153,8 @@ class WelcomeController < ApplicationController
   def invoice_print
   	
   end
+
+  def weather 
+    
+  end
 end
