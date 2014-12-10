@@ -155,6 +155,6 @@ class WelcomeController < ApplicationController
   end
 
   def weather 
-    
+    render :layout => 'weather'
   end
 end
